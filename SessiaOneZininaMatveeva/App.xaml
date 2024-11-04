@@ -1,0 +1,17 @@
+﻿<Application x:Class="SessiaOneZininaMatveeva.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SessiaOneZininaMatveeva"
+             StartupUri="\View\Windows\StartWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="\styles\buttonst.xaml"/>
+                <ResourceDictionary Source="\styles\combost.xaml"/>
+                <ResourceDictionary Source="\styles\textblockst.xaml"/>
+                <ResourceDictionary Source="\styles\textboxst.xaml"/>
+                <ResourceDictionary Source="\styles\DatePickerSt.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
